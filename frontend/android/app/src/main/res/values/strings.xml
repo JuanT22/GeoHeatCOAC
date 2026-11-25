@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">GeoHeat COAC</string>
+    <string name="title_activity_main">GeoHeat COAC</string>
+    <string name="package_name">ec.edu.utpl.geoheatcoac</string>
+    <string name="custom_url_scheme">ec.edu.utpl.geoheatcoac</string>
+</resources>

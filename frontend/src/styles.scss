@@ -1,0 +1,51 @@
+@use '@ionic/angular/css/core.css';
+@use '@ionic/angular/css/normalize.css';
+@use '@ionic/angular/css/structure.css';
+@use '@ionic/angular/css/typography.css';
+
+:root {
+  --ion-color-primary: #0b5cad;
+  --ion-color-primary-rgb: 11, 92, 173;
+  --ion-color-primary-contrast: #ffffff;
+  --ion-color-primary-contrast-rgb: 255, 255, 255;
+  --ion-color-primary-shade: #0a5198;
+  --ion-color-primary-tint: #236cb5;
+}
+
+.contenido {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.centrado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 16px;
+}
+
+.acciones ion-button {
+  flex: 1 1 160px;
+}
+
+.error-archivo {
+  white-space: pre-line;
+}
+
+ion-toast.toast-multilinea::part(message) {
+  white-space: pre-line;
+}
+
+/* El botón flotante no debe tapar el último registro. */
+ion-content > ion-list.contenido {
+  padding-bottom: 88px;
+}
